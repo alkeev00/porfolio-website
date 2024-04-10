@@ -1,0 +1,71 @@
+.header {
+	width: 100%;
+	padding: 2rem 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 960;
+}
+
+.menuButton {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 1.5rem;
+	font-weight: 300;
+	z-index: 1000;
+}
+
+.plusIcon {
+	transition: all 0.2s ease-in-out;
+}
+
+.menuButton:hover .plusIcon {
+	transform: scale(1.3);
+	color: var(--text-color);
+}
+
+.minusIcon {
+	transition: all 0.2s ease-in-out;
+}
+
+.menuButton:hover .minusIcon {
+	transform: scale(1.3);
+	color: var(--text-color);
+}
+
+.menuWrapper {
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 100%;
+	height: calc(100vh - 100px);
+	z-index: 950;
+}
+
+.menuEnter {
+	opacity: 1;
+	transform: scale(1) translateX(120%);
+}
+.menuEnterActive {
+	opacity: 1;
+	transform: scale(1) translateX(0);
+	transition: all 0.4s ease-in-out;
+	transform-origin: top;
+}
+.menuEnterDone {
+	opacity: 1;
+	transform: scale(1) translateX(0);
+}
+.menuExitActive {
+	opacity: 1;
+	transform: scale(1) translateX(120%);
+	transition: all 0.4s ease-in-out;
+	transform-origin: top;
+}
+.menuExitDone {
+	opacity: 1;
+	transform: scale(1) translateX(0);
+}

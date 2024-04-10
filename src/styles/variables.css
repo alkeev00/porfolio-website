@@ -1,0 +1,9 @@
+:root {
+	--bg-color: #0c0c0c;
+	--text-color: #eee;
+	--text-color-opacity: #eeeeee99;
+	--primary: #3cf0d2;
+	--error: #cc3f3f;
+	--min-height: calc(100vh - 140px);
+	--border: 1px solid var(--text-color);
+}
