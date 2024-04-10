@@ -1,0 +1,79 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/styles/notFound.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.notFound_wrapper__T2lre {
+	margin: 0 auto;
+	height: var(--min-height);
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.notFound_title__6ODET {
+	font-size: 6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4rem;
+	font-weight: 200;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.notFound_title__6ODET span {
+	font-weight: 700;
+	color: var(--text-color);
+}
+
+.notFound_subtitle__zFOjW {
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+.notFound_description__sBbBp {
+	font-size: 1.5rem;
+	font-weight: 200;
+	text-align: center;
+}
+
+.notFound_buttons__e0XhI {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 3rem;
+}
+
+.notFound_btn__Uygaj {
+	border: 2px solid var(--text-color);
+	border-radius: 50px;
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 300;
+	transition: all 0.2s ease-in-out;
+}
+
+.notFound_btn__Uygaj:hover {
+	padding: 1rem 2.5rem;
+}
+
+.notFound_btn__Uygaj:hover .notFound_btnIcon__lIk_y {
+	transform: scale(1.3);
+	color: var(--text-color);
+}
+
+.notFound_btnIcon__lIk_y {
+	font-size: 2rem;
+	transition: all 0.2s ease-in-out;
+}
+

@@ -9,6 +9,16 @@
 	/* border: var(--border); */
 	border-radius: 30px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.projectsList {
+	margin-top: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
 }
